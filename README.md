@@ -1,1 +1,1 @@
-This is a OS practice repository.
+A rust OS practice repository.
