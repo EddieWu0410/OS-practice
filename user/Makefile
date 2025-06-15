@@ -1,3 +1,4 @@
+
 TARGET := riscv64gc-unknown-none-elf
 MODE := release
 APP_DIR := src/bin
@@ -21,4 +22,5 @@ clean:
 	@cargo clean
 
 .PHONY: elf binary build clean
+
 

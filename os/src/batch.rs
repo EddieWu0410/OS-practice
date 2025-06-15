@@ -99,7 +99,6 @@ pub fn run_next_app() -> ! {
     }
     panic!("Unreachable in batch::run_current_app!");
 }
-
 use crate::trap::TrapContext;
 
 const USER_STACK_SIZE: usize = 4096 * 2;
@@ -134,4 +133,3 @@ impl UserStack {
         self.data.as_ptr() as usize + USER_STACK_SIZE
     }
 }
-

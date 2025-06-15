@@ -1,3 +1,4 @@
+
 use buddy_system_allocator::LockedHeap;
 use crate::config::KERNEL_HEAP_SIZE;
 
@@ -18,6 +19,7 @@ pub fn init_heap() {
 pub fn handle_alloc_error(layout: core::alloc::Layout) -> ! {
     panic!("Heap allocation error, layout = {:?}", layout);
 }
+
 
 #[allow(unused)]
 pub fn heap_test() {
@@ -43,3 +45,4 @@ pub fn heap_test() {
     drop(v);
     println!("heap_test passed!");
 }
+

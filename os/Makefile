@@ -1,3 +1,4 @@
+
 # Building
 TARGET := riscv64gc-unknown-none-elf
 MODE := release
@@ -28,7 +29,7 @@ env:
 	rustup component add llvm-tools-preview
 
 $(KERNEL_BIN): kernel
-	@$(OBJCOPY) $(KERNEL_ELF) --strip-all -O binary $@
+	 @$(OBJCOPY) $(KERNEL_ELF) --strip-all -O binary $@
 
 kernel:
 	@cargo build --release
@@ -58,4 +59,6 @@ debug: build
 		tmux -2 attach-session -d
 
 .PHONY: build env kernel clean disasm disasm-vim run
+
+
 
