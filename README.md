@@ -1,1 +1,1 @@
-A Rust OS practice repository exp6 branch.
+A Rust OS practice repository exp7 branch.
