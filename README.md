@@ -17,5 +17,5 @@
 
 1. **克隆仓库**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone git@github.com:EddieWu0410/OS-practice.git
 
