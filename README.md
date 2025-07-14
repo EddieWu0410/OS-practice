@@ -18,4 +18,7 @@
 1. **克隆仓库**:
    ```bash
    git clone git@github.com:EddieWu0410/OS-practice.git
+   ```
 
+2. **结合实验手册**
+   请结合实验手册使用效果更佳，并更改为自己的提交。
